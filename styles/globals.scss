@@ -1,0 +1,30 @@
+html {
+  margin-top: 3vh;
+  .statistics {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 4rem 2rem;
+    border-bottom: 1px solid #eaeaea;
+  }
+  .Wrapper {
+    padding-bottom: 1rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    .Heading {
+      font-size: 3rem;
+      font-weight: 700;
+      color: rgb(255, 160, 83);
+      overflow: hidden;
+      padding-top: 3rem;
+    }
+    footer {
+      padding: 1rem;
+      border-top: 1px solid #eaeaea;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: auto;
+    }
+  }
+}

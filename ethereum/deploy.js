@@ -17,7 +17,7 @@ const deploy = async () => {
   // Use one of those accounts to deploy the contract
   const result = await new web3.eth.Contract(abi)
     .deploy({ data: evm.bytecode.object })
-    .send({ from: accounts[0], gas: "1500000" });
+    .send({ from: accounts[0], gas: "2500000" });
 
   console.log("Contract deployed to", result.options.address);
   provider.engine.stop();
