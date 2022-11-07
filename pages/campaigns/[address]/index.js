@@ -5,6 +5,7 @@ import ContributeForm from "../../../components/Contribute";
 import CampaignLayout from "../../../components/CampaignLayout";
 import web3 from "../../../ethereum/web3";
 import getCampaignSummary from "../../../utils/getCampaignSummary";
+import Campaign from "../../../ethereum/campaign";
 
 const CampaignDisplay = (summary) => {
   const percentFunded = (

@@ -88,9 +88,8 @@ contract Campaign {
         request.approvalCount++;
     }
 
-    function hasApproved(uint index) public view returns(bool) {
-        Request storage request = requests[index];
-        return request.approvals[msg.sender];
+    function hasApproved(address sender, uint index) public view returns(bool) {
+       return requests[index].approvals[sender];
     }
 
     function finaliseRequest(uint index) public restricted {

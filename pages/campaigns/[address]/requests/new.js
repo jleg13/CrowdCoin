@@ -13,7 +13,7 @@ const RequestNew = ({ address }) => {
   const [recipient, setRecipient] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const [loading, setLoading] = useState(false);
-  
+
   const router = useRouter();
 
   const onSubmit = async (event) => {

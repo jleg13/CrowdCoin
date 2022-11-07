@@ -28,7 +28,7 @@ export default function CampaignNew() {
       setLoading(true);
       setErrorMessage("");
       const accounts = await web3.eth.getAccounts();
-      
+
       await factory.methods
         .createCampaign(name, description, goal, minimumContribution)
         .send({
