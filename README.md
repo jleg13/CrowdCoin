@@ -9,6 +9,7 @@ Capstone Project from the Udemy course: Ethereum and Solidity: The Complete Deve
 - Used multiple tools relating to Smart Contract development like RemixIDE, Infura and Web3.
 - Used the semantic-UI library to speed up development of front end interface.
 - Worked with class based React components and then refactored to functional components to learn how to use hooks in React.
+- Leveraged the mocha testing framework to develop fault tolerent code.
 
 ### Getting Started
 
