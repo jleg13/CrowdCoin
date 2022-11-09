@@ -1,4 +1,5 @@
 # CrowdCoin
+
 Project creating a KickStart style application based on a Smart Contract
 
 Capstone Project from the Udemy course: Ethereum and Solidity: The Complete Developer's Guide.
@@ -19,3 +20,9 @@ Clone Repository and the following:
 > npm install
 > npm run dev
 ```
+
+### Demo
+
+The demo site can be found [**Here**](https://grand-treacle-7b4fe2.netlify.app/).
+
+**NOTE:** The demo site is hosted on Netlify and uses the Goerli test network. You will need to install the Metamask browser extension and connect to the Goerli test network to interact with the site.

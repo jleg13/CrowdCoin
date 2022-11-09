@@ -36,7 +36,7 @@ const CampaignIndex = ({ campaigns }) => {
 
   return (
     <CampaignLayout
-      name="The future of sercure and transparent project funding."
+      name="Welcome to secure and transparent project funding."
       description=""
       statistics={{
         "Projects funded": campaigns.length,
