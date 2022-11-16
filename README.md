@@ -2,8 +2,10 @@
 
 ## Project Description:
 
-Project creating a KickStart style application based on a Smart Contract
 Capstone Project from the Udemy course: Ethereum and Solidity: The Complete Developer's Guide.
+
+This is a project creating a [KickStarter](https://www.kickstarter.com/) style application. The application's core functionality is built into a Solidity Smart Contract, which is deployed on the Ethereum blockchain.
+
 ### Key outcomes:
 
 - Developed a multi-page next.js application to that interacts with a Solidity Smart Contract deployed on the Ethereum Blockchain
@@ -37,7 +39,7 @@ npm install
 npm run dev
 ```
 
-## Authors
+## Authors:
 
 **Joshua Le Gresley** - [jleg13](https://https://github.com/jleg13).
 
