@@ -30,6 +30,8 @@ The demo site can be found [**Here**](https://grand-treacle-7b4fe2.netlify.app/)
 
 **NOTE:** The demo site is hosted on Netlify and uses the Goerli test network. You will need to install the Metamask browser extension and connect to the Goerli test network to interact with the site.
 
+**NOTE** Demo Site not mobile optimised
+
 ## Getting Started:
 
 Clone Repository and from the root directory run:
